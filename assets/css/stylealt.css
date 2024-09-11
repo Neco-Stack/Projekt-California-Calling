@@ -1,0 +1,248 @@
+@font-face {
+    font-family: "inter";
+    src: url(../fonts/Inter-Italic-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: "work";
+    src: url(../fonts/WorkSans-Thin.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5%; /* Use percentage for responsive margin */
+}
+
+header {
+    background-color: black;
+}
+
+.white-font {
+    font-family: "work";
+    color: white;
+    font-size: 1.25rem; /* Responsive font size using rem */
+    font-weight: 100;
+}
+
+.white-text {
+    font-family: "inter";
+    color: white;
+    font-size: 9rem; /* Responsive font size using rem */
+}
+
+.ab {
+    margin-top: 5%; /* Use percentage for responsive spacing */
+}
+
+.black-text {
+    font-family: "inter";
+    color: black;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: 9rem; /* Responsive font size using rem */
+    line-height: 0.3;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10% 0 0 0; /* Use percentage for responsive margin */
+    padding: 0 0 10%; /* Use percentage for responsive padding */
+}
+
+button {
+    font-family: "work";
+    font-weight: 900;
+    font-size: 1.5rem; /* Responsive font size using rem */
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1em 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
+header h1 {
+    text-align: center;
+}
+header p {
+    text-align: center;
+}
+
+/* End of head */
+
+.first-section {
+    background-color: black;
+    height: 180vh;
+}
+
+.california {
+    position: absolute;
+    width: 42.7vw; /* Use viewport units for responsive size */
+    height: 60vh; /* Use viewport units for responsive size */
+    top: 205vh; /* Adjust for responsiveness */
+    right: 1vw; /* Adjust for responsiveness */
+}
+
+.left-ab {
+    padding-left: 10%; /* Use percentage for responsive padding */
+}
+
+.down-ab {
+    padding-bottom: 10%; /* Use percentage for responsive padding */
+}
+
+.down-ab-small {
+    padding-bottom: 2.5%; /* Use percentage for responsive padding */
+}
+
+.numbertext {
+    font-family: "work";
+    color: white;
+    text-align: left;
+}
+
+/* End of first section */
+
+.pic-small {
+    width: 50%; /* Responsive width */
+    max-width: 405px;
+    height: auto;
+}
+
+.pic-medium {
+    width: 60%; /* Responsive width */
+    max-width: 495px;
+    height: auto;
+}
+
+.pic-big {
+    width: 80%; /* Responsive width */
+    max-width: 660px;
+    height: auto;
+}
+
+.h2-black {
+    color: black;
+    font-size: 7rem; /* Responsive font size using rem */
+}
+
+.grid h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 35rem;
+    line-height: 1em;
+    font-family: "inter";
+}
+
+.stuck-section-p {
+    font-size: 1.5rem; /* Responsive font size using rem */
+    padding: 0 35vw; /* Use viewport width for responsive padding */
+    text-align: left;
+    line-height: 2.2rem; /* Responsive line height using rem */
+    font-family: "work";
+    font-weight: 800;
+}
+
+.gallery01 {
+    position: absolute;
+    top: 276vh; /* Adjust for responsiveness */
+    right: 10vw; /* Adjust for responsiveness */
+}
+
+.gallery02 {
+    position: absolute;
+    top: 310vh; 
+    left: 5vw; 
+}
+
+.gallery03 {
+    position: absolute;
+    top: 365vh; 
+    right: 0vw; 
+}
+
+.gallery04 {
+    position: absolute;
+    top: 395vh; 
+    left: 15vw; 
+}
+
+.gallery05 {
+    position: absolute;
+    top: 420vh; 
+    right: 15vw; 
+}
+
+.gallery06 {
+    position: absolute;
+    top: 460vh; 
+    left: 0vw; 
+}
+
+.gallery07 {
+    position: absolute;
+    top: 500vh; 
+    right: 25vw; 
+}
+
+.ab-stuck{
+    padding-top: 95vh;
+    padding-bottom: 50vh;
+}
+/* Teddy Beu Start */
+.page2{
+    background-color: black;
+}
+
+.para-section-small{
+    color: white;
+    font-size: 1.125rem;
+    font-family: "work";
+    font-weight: 700;
+}
+
+.h2-white{
+    color: white;
+    font-size: 7rem;
+    line-height: 0.85em;
+    font-family: "inter";
+}
+
+.para-text-white{
+    color: white;
+    font-size: 2rem;
+    line-height: 0.85em;
+    font-family: "inter";
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    padding-top: 25vh;
+}
+
+.up-ab{
+    padding-top: 2vh;
+}
+
+.pdg{
+    padding: 0 20vw;
+}

@@ -4,13 +4,178 @@
 }
 @font-face {
     font-family: "work";
-    src: url(../fonts/WorkSans-Black.ttf);
+    src: url(../fonts/WorkSans-Thin.ttf);
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-img{
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+header{
     background-color: black;
+}
+
+.white-font{
+    font-family: "work";
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.white-text{
+    font-family: "inter";
+    color: white;
+    font-size: 144px;
+}
+
+.ab{
+    margin-top: 50px;
+}
+
+.black-text{
+    font-family: "inter";
+    color: black;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: 144px;
+    line-height: 0.3;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10rem 0 0 0;
+    padding: 0 0 10rem 0;
+}
+
+button{
+    font-family: "work";
+    font-weight: 900;
+    font-size: larger;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1em 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover{
+    color: black;
+    background-color: white;
+}
+
+header h1, p {
+    text-align: center;
+}
+
+/* end of head - everything looks correct - class "ab" to create space */
+
+.first-section{
+    background-color: black;
+    height: 180vh;
+}
+
+.california{
+    position: absolute;
+    width: 615px;
+    height: 865px;
+    top: 1970px;
+    right: 100px;
+}
+
+.left-ab{
+    padding-left: 10rem;
+}
+.down-ab{
+    padding-bottom: 10rem;
+}
+
+.down-ab-small{
+    padding-bottom: 2.5rem;
+}
+
+.numbertext{
+    font-family: "work";
+    color: white;
+    text-align: left;
+}
+
+/* end of first section */
+
+/* .pic-small {
+    width: 405px;
+    height: 277.5px;
+}
+
+.pic-medium {
+    width: 495px;
+    height: 330px;
+}
+
+.pic-big {
+    width: 660px;
+    height: 435px; 
+} */
+
+.pic-small {
+    width: 50%; /* Takes 50% of the parent container's width */
+    max-width: 405px; /* Prevents it from exceeding 405px */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.pic-medium {
+    width: 60%; /* Takes 60% of the parent container's width */
+    max-width: 495px; /* Prevents it from exceeding 495px */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.pic-big {
+    width: 80%; /* Takes 80% of the parent container's width */
+    max-width: 660px; /* Prevents it from exceeding 660px */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.h2-black{
+    color: black;
+    font-size: 112px;
+}
+
+.grid h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 20rem; 
+    line-height: 1em;
+    font-family: "inter";
+
+}
+
+.stuck-section-p{
+    font-size: 24px;
+    padding: 0 48rem;
+    text-align: left;
+    line-height: 35px;
+    font-family: "work";
+    font-weight: 800;
+
+}
+
+.gallery01{
+    position: absolute;
+    top: 179rem;
+    right: 11rem;
 }
